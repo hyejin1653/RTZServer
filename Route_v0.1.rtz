@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+Route Exchange Format (RTZ) XML schema 
+
+Revision 1.0
+
+Source: IEC 61174 Ed 4.0:2015
+-->
+<route xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.cirm.org/RTZ/1/0" version="1.0" xsi:schemaLocation="http://www.cirm.org/RTZ/1/0 rtz.xsd">
+  <routeInfo routeName="AROUNDtheSKAGEN" routeAuthor="Captain" routeStatus="8" vesselMMSI="220348970" vesselIMO="3798347" vesselVoyage="3회" vesselDisplacement="157" vesselCargo="14" vesselGM="2.16" vesselMaxRoll="17.0" vesselMaxWave="9.4" vesselMax_Wind="55.3" vesselSpeedMax="23.8" vesselServiceMin="16.9" vesselServiceMax="21.4" routeChangesHistory="2022-05-23T11:14:00Z" />
+  <waypoints>
+    <waypoint id="1" revision="2" name="Waypoint0" radius="0.5">
+      <position lat="53.512300" lon="53.512300" />
+      <Leg starboardXTD="0.1" portsideXTD="0.1" safetyContour="11.20000000" safetyDepth="22.20000000" planSpeedMin="22.30000000" planSpeedMax="25.80000000" draughtForward="8.9" draughtAft="9.1" staticUKC="0.9" dynamicUKC="0.6" masthead="21.3" legReport="Prevailing Current: NE" legInfo="Skagen port phone: +4599223787, fax: +4689410029" legNote1="ETD and ETA should be during daylight" legNote1="ETD and ETA should be during daylight" />
+    </waypoint>
+    <waypoint id="15" revision="3" name="Waypoint0" radius="0.5">
+      <position lat="53.049200" lon="53.049200" />
+      <Leg starboardXTD="0.1" portsideXTD="0.1" safetyContour="9.10000000" safetyDepth="9.10000000" planSpeedMin="22.30000000" planSpeedMax="25.80000000" draughtForward="8.9" draughtAft="9.1" staticUKC="0.9" dynamicUKC="0.6" masthead="21.3" legReport="Prevailing Current: NE" legInfo="Skagen port phone: +4599223787, fax: +4689410029" legNote1="ETD and ETA should be during daylight" legNote1="ETD and ETA should be during daylight" />
+    </waypoint>
+    <schedules />
+    <extensions />
+  </waypoints>
+</route>
